@@ -20,7 +20,7 @@ Add the files in index.css
 
 Start the development server: 
 
-### `npm run dev`
+### `npm start`
 
 Building for production: 
 
