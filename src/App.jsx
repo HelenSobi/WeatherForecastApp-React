@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <main>
-        <img src="./src/assets/icons/fog.png" alt="fog-weather"/>
+       
       <HeroWeather/>
       </main>
       <footer>
