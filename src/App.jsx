@@ -2,11 +2,9 @@ import HeroWeather from "./components/HeroWeather";
 
 function App() {
   
-
   return (
     <>
       <main>
-       
       <HeroWeather/>
       </main>
       <footer>
@@ -16,4 +14,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

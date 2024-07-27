@@ -26,6 +26,9 @@ Building for production:
 
 ### `npm run build`
 
-Client: Vite + React, TailwindCSS
-
-Server: Node
+----------------
+Format Code Style
+----------------
+Mac (macOS): Shift + Option + F 
+Windows: Shift + Alt + F
+Linux/Ubuntu: Ctrl + Shift + I.

@@ -18,21 +18,25 @@
   outline: none;
   box-sizing: border-box;
   text-decoration: none;
-}
-body {
-  background-image: url(./assets/images/sky.jpg);
-  background-size:     cover;                   
-  background-repeat:   no-repeat;
-  background-position: center center; 
-}
-.date-heading{
-  background-color: #9b4baf;
+  color:#fff;
 }
 /* body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
   min-height: 100vh;
 } */
-
+body {
+  background-image: url(./assets/images/sky.jpeg);
+  background-size:     cover;                   
+  background-repeat:   no-repeat;
+  background-position: center center; 
+  min-height: 100vh;
+}
+.date-heading{
+  background-color: #9b4baf;
+}
+.bg-transp{
+  background: rgb(97 138 238 / 44%);
+  
+}
