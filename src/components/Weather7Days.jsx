@@ -6,7 +6,7 @@ function Weather7Days(props) {
   
   return (
     <>
-    <img src={`/public/fog.png`} alt={icon} className="mx-auto"/>
+    <img src={`./icons/fog.png`} alt={icon} className="mx-auto"/>
      <div className=" flex flex-col rounded-lg shadow-lg bg-white text-surface sm:shrink-0 sm:grow sm:basis-0">
           <h3 className="rounded-t-lg date-heading p-3 text-center text-white">
             <DateSplit datetime={datetime}/></h3>
