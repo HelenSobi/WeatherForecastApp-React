@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import {BASE_URL, REM_URL} from './base';
 import Weather7Days from './Weather7Days';
 import Header from './Header';
 import Loading from './Loading';
@@ -12,7 +13,7 @@ function HeroWeather(){
     const [datess, setdatess] = useState(0);
 
     useEffect(() => {
-      axios.get(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${city}/next6days?unitGroup=metric&include=days&key=FJHXAEHVRDDMGTT74KBL5G9TM&contentType=json`)
+      axios.get(`${BASE_URL}${city}${REM_URL}`)
         .then(response => {
           setPosts(response?.data?.days);
           setCurrentWeth(response?.data?.days[0])
